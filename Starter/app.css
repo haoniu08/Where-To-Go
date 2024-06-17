@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: black;
     font-family: "Nunito", sans-serif;
 }
 
@@ -16,4 +16,20 @@ body {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 200;
+}
+
+#headingGroup span {
+    font-style: italic;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2rem;
+    }
+
 }
