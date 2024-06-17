@@ -27,6 +27,11 @@ body {
     font-size: 3rem;
 }
 
+.navbar.scrolled {
+    background: white;
+    transition: background 500ms;
+}
+
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-size: 2rem;
@@ -46,8 +51,4 @@ body {
 
 .content {
     margin-top: 60px;
-}
-
-.navbar.scrooed {
-    background: #4d5257;
 }
